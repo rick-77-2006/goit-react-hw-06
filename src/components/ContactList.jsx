@@ -9,6 +9,7 @@ const listItemStyles = {
   gap: 25,
 }
 
+
 const ContactList = () => {
   const allContacts = useSelector(selectContacts);
    const nameFilter = useSelector(selectNameFilter);
@@ -16,7 +17,8 @@ const ContactList = () => {
    const filteredContacts = allContacts.filter(contact =>
     contact.name.toLowerCase().includes(nameFilter.toLowerCase())
    );
-    
+  
+  
   return (
     <div>
       <h2 >Contact List</h2>

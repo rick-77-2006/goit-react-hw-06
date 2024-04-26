@@ -10,6 +10,7 @@ const SearchBox = () => {
     dispatch(changeFilter(e.target.value));
   };
 
+
   return (
     <>
       <h3 className={css.title}>Find contacts by name</h3>

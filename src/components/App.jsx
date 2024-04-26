@@ -3,10 +3,11 @@ import SearchBox from "./SearchBox";
 import ContactList from "./ContactList";
 import './App.css';
 
+
 const App = () => {
     return (
         <div>
-            <h1>React + Vite by Rick</h1>
+            <h1>Phonebook</h1>
             <ContactForm />
             <SearchBox />
             <ContactList />
